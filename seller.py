@@ -23,9 +23,6 @@ def get_product_list(last_id, client_id, seller_token):
     Returns:
         dict: товары - при положительном результате
 
-    Raises:
-        ReadTimeout, ConnectionError или ERROR_2 (текст ошибки)
-
     """
     url = "https://api-seller.ozon.ru/v2/product/list"
     headers = {
@@ -55,9 +52,6 @@ def get_offer_ids(client_id, seller_token):
 
     Returns:
         dict: список артикулов товаров - при положительном результате,
-
-    Raises:
-        ReadTimeout, ConnectionError или ERROR_2 (текст ошибки)
 
     """
     last_id = ""
