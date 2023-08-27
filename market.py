@@ -49,7 +49,7 @@ def update_stocks(stocks, campaign_id, access_token):
     """Обновить остатки товаров на Yandex
 
     Args:
-        stocks (list): список массивов - информации об остатках,
+        stocks (list): список словарей - информации об остатках,
         campaign_id (str): идентификатор кампании,
         access_token (str): API-ключ - оба уникальных значения продавца для Yandex,
             о получении здесь -
