@@ -73,7 +73,7 @@ def update_price(prices: list, client_id, seller_token):
     """Обновить цены товаров на Озон
 
     Args:
-        prices (list): список массивов - информации о ценах товаров,
+        prices (list): список словарей - информации о ценах товаров,
                        https://docs.ozon.ru/api/seller/#operation/ProductAPI_ImportProductsPrices
         client_id (str): ID клиента,
         seller_token (str): API-ключ - оба уникальных значения продавца для Ozon,
@@ -98,7 +98,7 @@ def update_stocks(stocks: list, client_id, seller_token):
     """Обновить остатки
 
     Args:
-        stocks (list): список массивов - информации об остатках,
+        stocks (list): список словарей - информации об остатках,
                        https://docs.ozon.ru/api/seller/#operation/ProductAPI_ImportProductsStocks
         client_id (str): ID клиента,
         seller_token (str): API-ключ - оба уникальных значения продавца для Ozon,
