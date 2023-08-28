@@ -75,7 +75,7 @@ def update_price(prices, campaign_id, access_token):
     """Обновить цены товаров на Yandex
 
     Args:
-        prices (list): список массивов - информации о ценах,
+        prices (list): список словарей - информации о ценах,
         campaign_id (str): идентификатор кампании,
         access_token (str): API-ключ - оба уникальных значения продавца для Yandex,
             о получении здесь -
